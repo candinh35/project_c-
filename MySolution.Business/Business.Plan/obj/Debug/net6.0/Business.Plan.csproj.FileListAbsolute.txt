@@ -1,0 +1,17 @@
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Business.Plan.deps.json
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Business.Plan.dll
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Business.Plan.pdb
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Business.Core.dll
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Model.Core.dll
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Business.Core.pdb
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Model.Core.pdb
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.csproj.AssemblyReference.cache
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.GeneratedMSBuildEditorConfig.editorconfig
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.AssemblyInfoInputs.cache
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.AssemblyInfo.cs
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.csproj.CoreCompileInputs.cache
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.dll
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\refint\Business.Plan.dll
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.pdb
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\ref\Business.Plan.dll
+D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.csproj.CopyComplete

@@ -1,0 +1,14 @@
+D:\laravel\MySolution\MySolution.Model\Model.Core\bin\Debug\net6.0\Model.Core.deps.json
+D:\laravel\MySolution\MySolution.Model\Model.Core\bin\Debug\net6.0\Model.Core.runtimeconfig.json
+D:\laravel\MySolution\MySolution.Model\Model.Core\bin\Debug\net6.0\Model.Core.dll
+D:\laravel\MySolution\MySolution.Model\Model.Core\bin\Debug\net6.0\Model.Core.pdb
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.csproj.AssemblyReference.cache
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.AssemblyInfoInputs.cache
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.AssemblyInfo.cs
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.csproj.CoreCompileInputs.cache
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.dll
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\refint\Model.Core.dll
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.pdb
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.genruntimeconfig.cache
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\ref\Model.Core.dll
