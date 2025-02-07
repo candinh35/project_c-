@@ -40,4 +40,6 @@ D:\laravel\MySolution\MySolution.WebAPI\obj\Debug\net6.0\refint\MySolution.WebAP
 D:\laravel\MySolution\MySolution.WebAPI\obj\Debug\net6.0\MySolution.WebAPI.pdb
 D:\laravel\MySolution\MySolution.WebAPI\obj\Debug\net6.0\MySolution.WebAPI.genruntimeconfig.cache
 D:\laravel\MySolution\MySolution.WebAPI\obj\Debug\net6.0\ref\MySolution.WebAPI.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Framework.Core.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Framework.Core.pdb
 D:\laravel\MySolution\MySolution.WebAPI\obj\Debug\net6.0\MySolution.WebAPI.csproj.CopyComplete

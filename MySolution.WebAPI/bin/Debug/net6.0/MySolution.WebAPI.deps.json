@@ -240,8 +240,17 @@
           "Business.Plan.dll": {}
         }
       },
+      "Framework.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.30"
+        },
+        "runtime": {
+          "Framework.Core.dll": {}
+        }
+      },
       "Model.Core/1.0.0": {
         "dependencies": {
+          "Framework.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.30",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.30",
           "Npgsql": "6.0.5",
@@ -447,6 +456,11 @@
       "sha512": ""
     },
     "Business.Plan/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

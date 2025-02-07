@@ -12,4 +12,6 @@ D:\laravel\MySolution\MySolution.Business\Business.Core\obj\Debug\net6.0\Busines
 D:\laravel\MySolution\MySolution.Business\Business.Core\obj\Debug\net6.0\refint\Business.Core.dll
 D:\laravel\MySolution\MySolution.Business\Business.Core\obj\Debug\net6.0\Business.Core.pdb
 D:\laravel\MySolution\MySolution.Business\Business.Core\obj\Debug\net6.0\ref\Business.Core.dll
+D:\laravel\MySolution\MySolution.Business\Business.Core\bin\Debug\net6.0\Framework.Core.dll
+D:\laravel\MySolution\MySolution.Business\Business.Core\bin\Debug\net6.0\Framework.Core.pdb
 D:\laravel\MySolution\MySolution.Business\Business.Core\obj\Debug\net6.0\Business.Core.csproj.CopyComplete

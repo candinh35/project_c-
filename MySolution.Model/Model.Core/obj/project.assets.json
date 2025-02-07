@@ -355,6 +355,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Framework.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.30"
+        },
+        "compile": {
+          "bin/placeholder/Framework.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Core.dll": {}
+        }
       }
     }
   },
@@ -807,10 +820,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Framework.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Farmework/Framework.Core/Framework.Core.csproj",
+      "msbuildProject": "../../Farmework/Framework.Core/Framework.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Framework.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.30",
       "Microsoft.EntityFrameworkCore.Relational >= 6.0.30",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.30",
@@ -849,7 +868,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\laravel\\MySolution\\Farmework\\Framework.Core\\Framework.Core.csproj": {
+              "projectPath": "D:\\laravel\\MySolution\\Farmework\\Framework.Core\\Framework.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

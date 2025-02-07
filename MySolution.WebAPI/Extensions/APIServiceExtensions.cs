@@ -1,4 +1,6 @@
 using System.Reflection;
+using Framework.Core.Abstractions;
+using Framework.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using Model.Core;
 
@@ -16,7 +18,7 @@ public static class APIServiceExtensions
             builder.EnableSensitiveDataLogging();
             builder.LogTo(Console.WriteLine);
         });
-
+        services.AddScoped(typeof(IUnitOfWork), typeof(BaseUnitOfWork<CoreDbContext>));
         return services;
     }
 }

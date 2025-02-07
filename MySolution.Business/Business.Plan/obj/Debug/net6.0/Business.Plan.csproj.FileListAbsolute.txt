@@ -14,4 +14,6 @@ D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Busines
 D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\refint\Business.Plan.dll
 D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.pdb
 D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\ref\Business.Plan.dll
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Framework.Core.dll
+D:\laravel\MySolution\MySolution.Business\Business.Plan\bin\Debug\net6.0\Framework.Core.pdb
 D:\laravel\MySolution\MySolution.Business\Business.Plan\obj\Debug\net6.0\Business.Plan.csproj.CopyComplete

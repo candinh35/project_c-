@@ -1,0 +1,12 @@
+D:\laravel\MySolution\Farmework\Framework.Core\bin\Debug\net6.0\Framework.Core.deps.json
+D:\laravel\MySolution\Farmework\Framework.Core\bin\Debug\net6.0\Framework.Core.dll
+D:\laravel\MySolution\Farmework\Framework.Core\bin\Debug\net6.0\Framework.Core.pdb
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\Framework.Core.csproj.AssemblyReference.cache
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\Framework.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\Framework.Core.AssemblyInfoInputs.cache
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\Framework.Core.AssemblyInfo.cs
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\Framework.Core.csproj.CoreCompileInputs.cache
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\Framework.Core.dll
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\refint\Framework.Core.dll
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\Framework.Core.pdb
+D:\laravel\MySolution\Farmework\Framework.Core\obj\Debug\net6.0\ref\Framework.Core.dll

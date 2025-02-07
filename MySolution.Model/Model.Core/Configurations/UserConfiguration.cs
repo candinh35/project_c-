@@ -10,7 +10,6 @@ public class UserConfiguration : IEntityTypeConfiguration<User>
     {
         builder.ToTable("user", "public");
 
-        builder.Property(x => x.Id).IsRequired();
         builder.Property(x => x.Name).HasMaxLength(15);
         builder.Property(x => x.Email).HasMaxLength(15);
     }

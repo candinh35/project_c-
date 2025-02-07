@@ -12,3 +12,6 @@ D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\refint\Model.
 D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.pdb
 D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.genruntimeconfig.cache
 D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\ref\Model.Core.dll
+D:\laravel\MySolution\MySolution.Model\Model.Core\bin\Debug\net6.0\Framework.Core.dll
+D:\laravel\MySolution\MySolution.Model\Model.Core\bin\Debug\net6.0\Framework.Core.pdb
+D:\laravel\MySolution\MySolution.Model\Model.Core\obj\Debug\net6.0\Model.Core.csproj.CopyComplete

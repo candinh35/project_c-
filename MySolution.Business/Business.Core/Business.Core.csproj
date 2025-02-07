@@ -4,6 +4,10 @@
     <ProjectReference Include="..\..\MySolution.Model\Model.Core\Model.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Include=".Extensions\CoreServiceExtensions.cs" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

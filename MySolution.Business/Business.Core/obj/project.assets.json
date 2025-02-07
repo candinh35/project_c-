@@ -311,10 +311,24 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Framework.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.30"
+        },
+        "compile": {
+          "bin/placeholder/Framework.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Core.dll": {}
+        }
+      },
       "Model.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Framework.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.30",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.30",
           "Npgsql": "6.0.5",
@@ -722,6 +736,11 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Framework.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Farmework/Framework.Core/Framework.Core.csproj",
+      "msbuildProject": "../../Farmework/Framework.Core/Framework.Core.csproj"
     },
     "Model.Core/1.0.0": {
       "type": "project",
