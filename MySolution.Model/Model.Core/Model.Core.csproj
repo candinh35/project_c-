@@ -21,4 +21,8 @@
     <ProjectReference Include="..\..\Farmework\Framework.Core\Framework.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

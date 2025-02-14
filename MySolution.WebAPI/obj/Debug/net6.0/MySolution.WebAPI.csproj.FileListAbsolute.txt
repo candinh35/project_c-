@@ -42,4 +42,12 @@ D:\laravel\MySolution\MySolution.WebAPI\obj\Debug\net6.0\MySolution.WebAPI.genru
 D:\laravel\MySolution\MySolution.WebAPI\obj\Debug\net6.0\ref\MySolution.WebAPI.dll
 D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Framework.Core.dll
 D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Framework.Core.pdb
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\laravel\MySolution\MySolution.WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 D:\laravel\MySolution\MySolution.WebAPI\obj\Debug\net6.0\MySolution.WebAPI.csproj.CopyComplete

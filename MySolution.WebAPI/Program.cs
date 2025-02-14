@@ -9,7 +9,7 @@ var configuration = builder.Configuration;
 
 service.AddDatabase(configuration);
 service.AddCoreService(configuration);
-
+service.AddJwtAuthentication(configuration);
 
 // Add services to the container.
 service.AddControllers().AddJsonOptions(options =>

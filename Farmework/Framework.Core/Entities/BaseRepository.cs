@@ -15,6 +15,11 @@ public class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : clas
         _dbSet = _context.Set<TEntity>();
     }
 
+    public IQueryable<TEntity> GetQuery(Func<DbSet<TEntity>, IQueryable<TEntity>>? func = null)
+    {
+        return func != null ? func(_dbSet) : _dbSet;
+    }
+
     public IQueryable<TEntity> GetAll()
     {
         return _dbSet.AsNoTracking();

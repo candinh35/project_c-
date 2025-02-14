@@ -3,7 +3,7 @@ using Framework.Core.Abstractions;
 using Microsoft.EntityFrameworkCore;
 using Model.Core.Entities;
 
-namespace Business.Core;
+namespace Business.Core.Services;
 
 public class UserService : IUsers
 {

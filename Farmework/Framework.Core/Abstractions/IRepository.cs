@@ -1,9 +1,11 @@
 ﻿using System.Linq.Expressions;
+using Microsoft.EntityFrameworkCore;
 
 namespace Framework.Core.Abstractions
 {
     public interface IRepository<TEntity> where TEntity : class, IAudit, ISoftDelete, IEntity<Guid>
     {
+        IQueryable<TEntity> GetQuery(Func<DbSet<TEntity>, IQueryable<TEntity>>? func = null);
         IQueryable<TEntity> GetAll();
         Task<List<TEntity>> GetByConditionAsync(Expression<Func<TEntity, bool>> predicate);
         Task<TEntity?> GetByIdAsync(Guid id);
