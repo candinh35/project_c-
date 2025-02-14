@@ -50,9 +50,10 @@ public class BaseRepository<TEntity> : IRepository<TEntity> where TEntity : clas
         await _dbSet.AddRangeAsync(entities);
     }
 
-    public void Update(TEntity entity)
+    public async Task UpdateSync(TEntity entity)
     {
-        _dbSet.Update(entity);
+        _dbSet.Attach(entity);
+        await Task.CompletedTask;
     }
 
     public void Delete(TEntity entity)

@@ -12,7 +12,7 @@ namespace Framework.Core.Abstractions
         Task<bool> ExistsAsync(Expression<Func<TEntity, bool>> predicate);
         Task AddAsync(TEntity entity);
         Task AddRangeAsync(IEnumerable<TEntity> entities);
-        void Update(TEntity entity);
+        Task UpdateSync(TEntity entity);
         void Delete(TEntity entity);
         void DeleteRange(IEnumerable<TEntity> entities);
         Task<int> SaveChangesAsync();

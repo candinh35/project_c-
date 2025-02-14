@@ -1,3 +1,4 @@
+using Business.Core.Contracts;
 using Business.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,48 +9,36 @@ namespace MySolution.WebAPI.Controllers;
 public class AuthController : Controller
 {
     private readonly IAuthService _authService;
+    private readonly IUsers _userService;
 
-    public AuthController(IAuthService authService)
+    public AuthController(IAuthService authService, IUsers users)
     {
         _authService = authService;
+        _userService = users;
     }
 
     [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody] LoginRequest request)
+    public async Task<IActionResult> Login([FromBody] AuthLoginRequest request)
     {
-        if (request is { Username: "admin", Password: "password" })
-        {
-            var userId = Guid.NewGuid();
-            var accessToken = await _authService.GenerateAccessToken(userId);
-            var refreshToken = await _authService.GenerateRefreshToken(userId);
+        var res = await _authService.Login(request);
 
-            return Ok(new { AccessToken = accessToken, RefreshToken = refreshToken });
+        if (res is { AccessToken: null })
+        {
+            return Unauthorized();
         }
 
-        return Unauthorized();
+        return Ok(res);
     }
 
     [HttpPost("refresh")]
-    public async Task<IActionResult> Refresh([FromBody] RefreshRequest request)
+    public async Task<IActionResult> Refresh([FromBody] string refreshToken)
     {
-        if (await _authService.ValidateRefreshToken(request.UserId, request.RefreshToken))
+        var res = await _authService.Refresh(refreshToken);
+        if (res is { AccessToken: null })
         {
-            var newAccessToken = await _authService.GenerateAccessToken(request.UserId);
-            return Ok(new { AccessToken = newAccessToken });
+            return Unauthorized();
         }
 
-        return Unauthorized();
+        return Ok(res);
     }
-}
-
-public class LoginRequest
-{
-    public string Username { get; set; }
-    public string Password { get; set; }
-}
-
-public class RefreshRequest
-{
-    public Guid UserId { get; set; }
-    public string RefreshToken { get; set; }
 }
