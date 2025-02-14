@@ -1,10 +1,12 @@
 using Business.Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MySolution.WebAPI.Controllers;
 
 [Route("api/user")]
 [ApiController]
+[Authorize]
 public class UserController : Controller
 {
     private IUsers _users { get; set; }
